@@ -1,3 +1,14 @@
+/*
+   File originates from: https://electronza.com/arduino-robot-a-line-follower-code/
+   
+   Code for use in CuriousU RIDE
+    - found online by Sjoerd de Jong
+    
+    Read up on the website to understand the code! 
+*/
+
+
+
 #include <ArduinoRobot.h>
 #include <Wire.h>
 #include <SPI.h>
