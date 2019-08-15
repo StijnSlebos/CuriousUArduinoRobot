@@ -1,10 +1,8 @@
 /*
   roboArmOneJoystick.ino
   This  sketch is based on simpleMovements shows how they move each servo motor of Braccio
-
   Created on 15 Aug 2019
   by Stijn Slebos
-
   This example is in the public domain.
 */
 
@@ -69,12 +67,12 @@ void loop() {
   if (yValue > 700) {
     servoPosition[1] ++;
     servoPosition[2] ++;
-    servoPosition[3] --;
+    servoPosition[3] ++;
 
   } else if (yValue < 400) {
     servoPosition[1] --;
     servoPosition[2] --;
-    servoPosition[3] ++;
+    servoPosition[3] --;
   }
 
   if (digitalRead(button) == LOW) {
