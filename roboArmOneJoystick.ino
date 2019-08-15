@@ -1,10 +1,9 @@
 /*
-  simpleMovements.ino
+  roboArmOneJoystick.ino
+  This  sketch is based on simpleMovements shows how they move each servo motor of Braccio
 
-  This  sketch simpleMovements shows how they move each servo motor of Braccio
-
-  Created on 18 Nov 2015
-  by Andrea Martino
+  Created on 15 Aug 2019
+  by Stijn Slebos
 
   This example is in the public domain.
 */
@@ -89,7 +88,7 @@ void loop() {
   }
 
   servoPosition[0] = constrain(servoPosition[0], 0, 180);
-  servoPosition[1] = constrain(servoPosition[1], 15, 165);
+  servoPosition[1] = constrain(servoPosition[1], 55, 115);
   servoPosition[2] = constrain(servoPosition[2], 0, 180);
   servoPosition[3] = constrain(servoPosition[3], 0, 180);
   servoPosition[4] = constrain(servoPosition[4], 0, 180);
